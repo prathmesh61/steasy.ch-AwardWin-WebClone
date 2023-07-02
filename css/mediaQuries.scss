@@ -1,0 +1,171 @@
+@media (max-width: 768px) {
+  .head-wrapper {
+    width: 600px;
+    .logo {
+      font-size: 2rem;
+    }
+    .head-links {
+      gap: 1vw;
+      span {
+        font-size: 1rem;
+      }
+    }
+    .head-btn {
+      border: none;
+      outline: none;
+      padding: 0.6rem 1.4rem;
+      background-color: #892561;
+      color: whitesmoke;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+  }
+
+  .hero {
+    width: 100%;
+    height: auto;
+    margin-top: 15rem;
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    video {
+      width: 100%;
+      background-blend-mode: overlay;
+    }
+  }
+
+  // features css
+  .features-container {
+    padding: 2rem;
+    .one {
+      gap: 2vw;
+      .left {
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.2rem;
+        }
+        .white-btn {
+          border: none;
+          outline: none;
+          padding: 0.6rem 1.4rem;
+          background-color: white;
+          color: black;
+          border-radius: 10px;
+          font-size: 1rem;
+        }
+      }
+      .right {
+        position: relative;
+        img {
+          height: 400px;
+        }
+        :nth-child(2) {
+          position: absolute;
+          width: 220px;
+          height: 180px;
+          top: 50%;
+          left: 30%;
+          object-fit: cover;
+        }
+      }
+    }
+    .two {
+      margin-top: 3rem;
+
+      .left {
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.2rem;
+        }
+        .white-btn {
+          border: none;
+          outline: none;
+          padding: 0.6rem 1.4rem;
+          background-color: white;
+          color: black;
+          border-radius: 10px;
+          font-size: 1rem;
+        }
+      }
+      .right {
+        position: relative;
+        img {
+          height: 400px;
+        }
+        :nth-child(2) {
+          position: absolute;
+          width: 220px;
+          height: 180px;
+          top: 50%;
+          right: 30%;
+          object-fit: cover;
+        }
+      }
+    }
+    .three {
+      width: 100%;
+      img {
+        width: 70%;
+        height: 400px;
+      }
+      .three-card {
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        top: 30%;
+        left: 20%;
+        background-color: white;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        overflow-wrap: break-word;
+        border-radius: 2rem;
+        background: rgba(215, 210, 210, 0.5);
+        box-shadow: 0 10px 40px #0000001a;
+
+        h2 {
+          font-size: 2rem;
+          font-weight: 700;
+          color: black;
+        }
+        .black-btn {
+          border: 1px solid black;
+          outline: none;
+          padding: 0.5rem 1.2rem;
+          background-color: black;
+          color: white;
+          border-radius: 10px;
+          width: 100px;
+        }
+      }
+    }
+  }
+  //   footer
+  .footer-wrapper {
+    .links1 {
+      span {
+        font-size: 1.5rem;
+      }
+    }
+    .links2 {
+      span {
+        font-size: 1.5rem;
+      }
+    }
+    .dis {
+      span {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+// hero css
